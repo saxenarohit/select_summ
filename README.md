@@ -1,7 +1,7 @@
 # Select and Summarize: Scene Saliency for Movie Script Summarization
 Paper link: [NAACL'24](https://aclanthology.org/2024.findings-naacl.218.pdf)
 
-## Dataset - Movie Scene Saliency
+## MENSA Dataset - Movie Scene Saliency
 
 The dataset can be downloaded from the Hugging Face hub
 
