@@ -4,7 +4,6 @@ import pickle
 import torch
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 from tqdm import tqdm
-from huggingface_hub import login
 from datasets import load_dataset
 import argparse
 
@@ -28,7 +27,6 @@ def load_model():
 
 def loadData():
 
-    login("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")
     mensa_dataset = load_dataset("rohitsaxena/MENSA")   
 
     return mensa_dataset["train"], mensa_dataset["validation"], mensa_dataset["test"]
