@@ -8,7 +8,7 @@ The dataset can be downloaded from the Hugging Face hub:
 [rohitsaxena/MENSA](https://huggingface.co/datasets/rohitsaxena/MENSA)
 
 
-## SELECTSUMM: Select and Summarize
+## SELECT & SUMM: Select and Summarize
 The summarization model used in the paper operates in two stages:
 
 ### Stage 1: Scene Salinecy Classification
