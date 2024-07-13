@@ -26,7 +26,7 @@ python precompute_embeddings.py
 python scene_saliency_classification.py
 
 ```
-### Stage 2: Scene Salinecy Classification
+### Stage 2: Summarization
 
 In the second stage, we use only the salient scenes predicted in stage 1 to fine-tune the summarization model (LED). 
 
