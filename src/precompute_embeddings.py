@@ -54,12 +54,11 @@ def sceneTextToEmbed(model,tokenizer,data):
 if __name__ == '__main__':
     
 
-    parser = argparse.ArgumentParser(description="Evaluate models on Mini-MMLU dataset")
+    parser = argparse.ArgumentParser(description="Precompute embedding")
     parser.add_argument(
         "--output_path_root",
         type=str,
         default = "./outputs/",
-        choices=["gpt4", "gpt-4-turbo", "llama", "claude"],
         help="Path to extract embedding to be used for classification model",
     )
     
